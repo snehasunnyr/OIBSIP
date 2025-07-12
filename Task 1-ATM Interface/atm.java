@@ -14,8 +14,7 @@ public class atm {
 
             System.out.print("Enter initial balance: Rs.");
             double initialBalance = sc.nextDouble();
-            sc.nextLine(); // consume newline
-
+            sc.nextLine(); 
             User currentUser = new User(userId, pin, initialBalance);
 
             System.out.print("\nEnter User ID: ");
