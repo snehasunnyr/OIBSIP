@@ -66,15 +66,15 @@ public class atm {
                         break;
                     case 5:
                         System.out.println("Thank you for using the ATM.");
-                        return; // exits the loop and program
+                        return; 
                     default:
                         System.out.println("Invalid option. Please try again.");
                 }
 
-                System.out.println(); // spacing after each operation
+                System.out.println(); 
             }
         } finally {
-            // Ensures scanner is closed even if there's an error
+            
             sc.close();
         }
     }
