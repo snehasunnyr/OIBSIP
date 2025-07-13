@@ -1,37 +1,55 @@
-# Number Guessing Game – Java Console Application
+# Online Exam System – Java Console Application
 
-This is Task 2 of the Java Development Internship under Oasis Infobyte.  
-The project is a simple number guessing game where the user tries to guess a randomly generated number.
+This is **Task 2** of the **Java Development Internship** under **Oasis Infobyte**.  
+The project is a console-based Online Exam System that allows users to log in, update their profile, and attempt a multiple-choice exam with auto-submission after a time limit.
+
+---
 
 ## Features
-- Random number generation
-- User input and feedback
-- Attempt counter
-- Loop until correct guess
-- Friendly prompts
+
+- Login Authentication  
+- Profile Update  
+- Start Exam (MCQ-based)  
+- Auto-submit after 1 hour  
+- Score Display  
+- Logout
+
+---
 
 ## Folder Structure
 
-Task 2 - Number Guessing Game/
-├── NumberGuess.java  
-└── README.md  
+```
+Task 2 - Online Exam System/
+│
+├── OnlineExamSystem.java
+└── README.md
+```
+
+---
 
 ## How to Run
 
-1. Open the folder in any Java IDE or terminal  
-2. Compile the file:
-javac NumberGuess.java
+1. Open the folder containing `OnlineExamSystem.java` in any Java IDE  
+   or open a terminal/command prompt and navigate to the folder.
 
+2. Compile the Java file using:  
+   `javac OnlineExamSystem.java`
 
-3. Run the program:
-java NumberGuess
+3. Run the compiled program using:  
+   `java OnlineExamSystem`
 
+---
 
 ## Technologies Used
-- Java
-- Basic control flow (loops, conditionals)
-- Console Input/Output
+
+- Java  
+- Object-Oriented Programming (OOP)  
+- Console Input/Output  
+- File Handling
+
+---
 
 ## Author
-Sneha Rachel Sunny  
+
+**Sneha Rachel Sunny**  
 Java Development Intern – Oasis Infobyte
